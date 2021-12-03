@@ -104,6 +104,10 @@ body {
   color: #F7EC59;
 }
 
+#screen main #head #msg p b {
+  color: #FF66D8;
+}
+
 #screen main #selection table {
   width: 100%;
 }
@@ -125,6 +129,106 @@ body {
 #screen main #selection table .selected td:nth-of-type(2) {
   color: #03012C;
   background-color: #FF66D8;
+}
+
+#screen main #recherche {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#screen main #recherche h2 {
+  font-size: xx-large;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#screen main #recherche h2 .blue {
+  color: #92DCE5;
+}
+
+#screen main #recherche h2 .red {
+  color: #FF66D8;
+}
+
+#screen main #recherche h2 .yellow {
+  color: #F7EC59;
+}
+
+#screen main #recherche h2 .green {
+  color: #78ff66;
+}
+
+#screen main #recherche #searchBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#screen main #recherche #searchBar p {
+  margin: 0px;
+  margin-right: 20px;
+}
+
+#screen main #recherche #searchBar #input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#screen main #recherche #searchBar .selected {
+  background-color: #efeef0;
+  color: #03012C;
+}
+
+#screen main #recherche #searchBar .selected div {
+  color: #03012C;
+}
+
+#screen main #recherche #searchBar #button {
+  margin-left: 20px;
+}
+
+#screen #pageSelect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 5px;
+}
+
+#screen #pageSelect .selected {
+  background-color: #efeef0;
+  color: #03012C;
+}
+
+#screen #rose pre {
+  font-size: 50%;
 }
 
 #screen footer {
@@ -171,7 +275,7 @@ body {
 }
 
 #screen footer #help #touchs div #enter {
-  background-image: url("img/BAS.png");
+  background-image: url("img/ENTREE.png");
   background-size: cover;
   margin-left: 5px;
   height: 30px;

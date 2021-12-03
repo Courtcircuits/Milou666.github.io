@@ -8,6 +8,7 @@ $black:#03012C;
 $blue:#92DCE5;
 $yellow:#F7EC59;
 $pink : #FF66D8;
+$green : #78ff66;
 
 *{
     font-family: 'Minitel';
@@ -20,6 +21,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 #screen{
     background-color: #03012C;
@@ -81,6 +83,9 @@ body{
                     font-size: x-large;
                     text-align: center;
                     color:$yellow;
+                    b{
+                        color:$pink;
+                    }
                 }
             }
         }
@@ -110,6 +115,65 @@ body{
                 }
             }
         }
+        #recherche{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            h2{
+                font-size: xx-large;
+                display: flex;
+                flex-direction: row;
+                .blue{
+                    color:$blue;
+                }
+                .red{
+                    color:$pink;
+                }
+                .yellow{
+                    color:$yellow;
+                }
+                .green{
+                    color:$green;
+                }
+            }
+            #searchBar{
+                display: flex;
+                flex-direction: row;
+                p{
+                    margin: 0px;
+                    margin-right:20px;
+                }
+                #input{
+                    display: flex;
+                    flex-direction: row;
+                }
+                .selected{
+                    background-color: $white;
+                    color:$black;
+                    div{
+                        color: $black;
+                    }
+                }
+                #button{
+                    margin-left:20px;
+                }
+            }
+        }
+    }
+    #pageSelect{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom:5px;
+    }
+    #pageSelect .selected{
+        background-color: $white;
+        color:$black;
+    }
+    #rose{
+        pre{
+            font-size:50%;
+        }
     }
     footer{
         background-color: $blue;
@@ -131,7 +195,7 @@ body{
                     flex-direction: row;
                     align-items: center;
                     #enter{
-                        background-image: url('img/BAS.png');
+                        background-image: url('img/ENTREE.png');
                         background-size: cover;
                         margin-left: 5px;
                         height:30px;
