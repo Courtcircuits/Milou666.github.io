@@ -1,1 +1,1 @@
-﻿alert("chargée grâce à cette merde");
+﻿alert("test load");
